@@ -1,0 +1,139 @@
+@charset 'utf-8';
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: ...
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+:root {
+	--color-primary: #0775B4;
+	--color-secondary: #0c94e3;
+	--color-accent: #85c9f0;
+}
+
+/*
+	Definición de estilos CSS para la maquetación HTML
+	========================================================================== */
+
+html, body {
+	height: 100vh;
+}
+body {
+	background: var(--color-primary) url('../images/bg/bg-body.jpg') center center no-repeat;
+	background-size: cover;
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+}
+pre {
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: pre;
+}
+section {
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+}
+section > div {
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+section > div > iframe {
+	background-color: #ffffff;
+	display: block;
+	border: none;  
+	/*box-sizing: border-box;*/
+}
+
+
+/*
+	Definición de estilos CSS para la plantilla principal
+	========================================================================== */
+
+.btn,
+.btn-large,
+.btn-small {
+	border-radius: .6rem;
+	letter-spacing: inherit;
+}
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating {
+	background-color: var(--color-primary);
+	font-weight: 600;
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover,
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus {
+	background-color: var(--color-accent);
+}
+i.left {
+	margin-right: 8px;
+}
+.dropdown-content li {
+	min-height: 40px !important;
+}
+.dropdown-content li > a,
+.dropdown-content li > span {
+	color: var(--color-primary);
+	font-size: 12px !important;
+	font-weight: 700;
+	padding: 10px 15px !important;
+}
+.dropdown-content li > a > i {
+	margin: 0 10px 0 0 !important;
+}
+.container {
+	min-width: 1200px;
+	max-width: 1200px;
+	width: 1200px;
+}
+.card .card-content ol {
+	margin: 15px 0;
+	padding: 0 0 0 30px;
+}
+.card .card-content ul {
+	list-style-type: disc;
+	margin: 15px 0;
+	padding: 0 0 0 30px;
+}
+.card .card-content ol li {
+	padding-bottom: 8px;
+}
+.card .card-content ul li {
+	list-style-type: disc;
+	padding-bottom: 8px;
+}
+
+
+/*
+	Media queries para estilos CSS para la plantilla principal
+	========================================================================== */
+
+@media(max-width:600px) {}
+@media(min-width:601px) {}
+@media(min-width:993px) {}
+@media(min-width:1201px) {}

@@ -1,0 +1,63 @@
+# Vim 8.2 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q
+|2,0,1722442984,,"q"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+
+# Marcas en el archivo:
+'0  71  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,48,71,0,1722442984,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+'1  71  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,49,71,0,1722433506,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+'2  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,50,66,0,1722432742,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+'3  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,51,66,0,1722432742,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+'4  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,52,66,0,1722432742,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+'5  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,53,66,0,1722432742,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+
+# Lista de saltos (el más reciente va primero):
+-'  71  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,71,0,1722442984,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  71  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,71,0,1722433506,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,66,0,1722433072,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,66,0,1722433072,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  66  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,66,0,1722432742,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  1  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,1,0,1722432544,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  1  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,1,0,1722432544,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+-'  1  0  ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+|4,39,1,0,1722432544,"~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/sitio/themes/EstudioDeCasos/preguntas/css/h5p.css
+	*	1722442983	0
+	"	71	0

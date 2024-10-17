@@ -1,0 +1,131 @@
+@charset 'utf-8';
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: ...
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+	:root {
+		--color-primary: #0c94e3;
+		--color-secondary: #0c94e3;
+		--color-accent: #85c9f0;
+	}
+
+/*
+	Sobreescritura de estilos CSS de H5P
+	========================================================================== */
+
+.h5p-iframe > body {
+	/*align-items: center;*/
+	display: flex;
+	font-family: 'Montserrat', sans-serif !important;
+}
+button {
+	background-color: var(--color-primary) !important;
+	border-radius: .6rem !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 500;
+}
+button:hover,
+button:focus {
+	background-color: var(--color-accent) !important;
+}
+
+
+/*
+	Formateo contenedor general de pregunta H5P
+	===========================================================================	*/
+
+.h5p-content {
+	border: none;
+}
+.h5p-wrapper {
+	min-height: 492px !important;
+	max-height: 492px !important;
+	min-width: 570px !important;
+	max-width: 570px !important;
+}
+.h5p-content ul.h5p-actions {
+	display: none !important;
+}
+.h5p-question-buttons {
+	text-align: right;
+}
+.h5p-question-buttons button {
+	margin-left: 15px;
+}
+/* test */
+
+/*.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: red !important;
+}
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-image {
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-introduction,
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-content,
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-buttons,
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-read {
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-question-content ul {
+	padding: 0;
+	list-style: none;
+}
+.h5p-content.h5p-initialized.h5p-frame.using-mouse[data-content-id="127"] .h5p-answer {
+	margin-bottom: 10px;
+} */
+
+/* Opcion 2 (funciona) */
+/*.question-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100vh; 
+}
+.h5p-question-image {
+	grid-column: 1; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.h5p-question-introduction,
+.h5p-question-content,
+.h5p-question-buttons,
+.h5p-question-read {
+	grid-column: 2; 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end; 
+	padding: 10px;
+	box-sizing: border-box;
+}
+.h5p-question-content ul {
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+.h5p-answer {
+	width: 100%;
+	margin-bottom: 10px;
+}*/
+
+.h5p-essay .h5p-question-scorebar {
+	display: none;
+}

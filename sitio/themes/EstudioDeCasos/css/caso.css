@@ -1,0 +1,113 @@
+@charset 'utf-8';
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: ...
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+
+/*
+	Definición de estilos CSS para la plantilla de un caso
+	========================================================================== */
+
+nav {
+	background-color: transparent;
+	box-shadow: none !important;
+}
+nav .brand {
+	float: left;
+	height: 64px;
+	padding: 5px 15px;
+}
+nav .brand img {
+	height: 54px;
+	max-height: 54px;
+}
+nav ul a.btn-floating,
+nav ul a.btn {
+	background-color: #ffffff;
+	color: var(--color-primary);
+	margin: 0 8px 0 0 !important;
+}
+nav ul a.btn-floating i {
+	color: var(--color-primary);
+}
+section {
+	overflow: visible;
+}
+section > div {
+	height: 604px;
+	max-height: 604px;
+	overflow: visible;
+	text-align: inherit;
+}
+.row {
+	margin-bottom: 0;
+}
+.col.s4 {
+	padding-left: 0;
+}
+.col.s8 {
+	padding-right: 0;
+}
+.card {
+	border-radius: 1rem;
+	height: 540px;
+	margin: 0;
+	overflow: hidden;
+	padding-bottom: 24px;
+	padding-top: 24px;
+}
+.card-content {
+	height: 492px;
+	max-height: 492px;
+	overflow-y: auto;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.card.ficha .card-content .columnas {
+	column-count: 2;
+	column-gap: 24px;
+}
+.card-content .card-title {
+	color: var(--color-primary);
+	text-transform: uppercase;
+}
+.card-content .card-title strong {
+	font-weight: 700 !important;
+}
+.card-content .card-title small {
+	display: block;
+	font-size: 1rem;
+	font-weight: 500 !important;
+	line-height: 1;
+}
+.card-content p {
+	margin-bottom: 15px !important;
+}
+.card-content p img {
+	/*min-height: 220px;*/
+	width: 100%;
+}
+
+
+/*
+	Media queries para estilos CSS para la plantilla de uncaso
+	========================================================================== */
+
+@media(max-width:600px) {}
+@media(min-width:601px) {}
+@media(min-width:993px) {}
+@media(min-width:1201px) {}
+
+table.striped.responsive-table {
+	font-size: 12px !important;
+}

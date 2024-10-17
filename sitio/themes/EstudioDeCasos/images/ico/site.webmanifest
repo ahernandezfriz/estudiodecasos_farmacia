@@ -1,0 +1,24 @@
+{
+    "name": "Pablo Masquiarán >_ Full Stack Developer",
+    "short_name": "Pablo Masquiarán >_ Full Stack Developer",
+    "description": "Hola, soy Pablo Masquiarán, un cristiano-esposo-padre por decisión y con vocación; y un programador-innovador-emprendedor que piensa en código fuente mezclado con rock. Siempre con un café en la mano.",
+    "icons": [
+        {
+            "src": "/sitio/themes/estudiodecasos-child/images/ico/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/sitio/themes/estudiodecasos-child/images/ico/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https://pmasquiaran.dev/",
+    "theme_color": "#ffffff"
+}

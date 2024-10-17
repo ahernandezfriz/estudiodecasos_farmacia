@@ -1,0 +1,47 @@
+@charset 'utf-8';
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: ...
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+
+/*
+	Definición de estilos CSS para la maquetación HTML
+	========================================================================== */
+
+section > div img {
+	display: block;
+	height: 100px;
+	margin: 60px auto;
+	width: 344px;
+}
+
+
+/*
+	Media queries para las principales etiquetas HTML5
+	================================================================================================ */
+
+@media(max-width:600px) {}
+@media(min-width:601px) {}
+@media(min-width:993px) {}
+@media(min-width:1201px) {}
+
+
+/*
+	Media queries para estilos CSS de la plantilla
+	========================================================================== */
+
+@media(max-width:600px) {}
+@media(min-width:601px) {}
+@media(min-width:993px) {}
+@media(min-width:1201px) {}
+

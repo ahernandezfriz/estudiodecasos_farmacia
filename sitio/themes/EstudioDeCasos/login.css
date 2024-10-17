@@ -1,0 +1,74 @@
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: Plantilla confeccionada para generar las interfaces de actividades formativas de estudio de casos clínicos.
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+:root {
+	--color-primary: #0c94e3;
+	--color-secondary: #0c94e3;
+	--color-accent: #85c9f0;
+}
+
+
+/*
+	Definición de estilos CSS para la maquetación HTML
+	========================================================================== */
+
+body {
+	background: var(--color-primary) url('images/bg/bg-body.jpg') center center no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	width: 100vw;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	font: 16px/24px 'Montserrat', sans-serif;
+}
+
+
+/*
+	Definición de estilos CSS de la plantilla base
+	========================================================================== */
+
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {
+	background-image: url('images/logos/logo-facultad-de-farmacia-blanco.svg');
+	background-size: contain !important;
+	height: 60px;
+	width: 100%;
+}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+
+

@@ -1,0 +1,130 @@
+@charset 'utf-8';
+/*
+	Theme Name:  Estudio de casos
+	Theme URI:   https://pmasquiaran.dev/
+	Author:      Pablo Masquiarán
+	Author URI:  https://pmasquiaran.dev/
+	License:     LGPLv3 (Licencia Pública General Reducida de GNU)
+	License URI: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+	Description: ...
+	Version:     1.0
+	Tags:        ...
+	Text Domain: maki
+	Domain Path: /languages/
+	========================================================================== */
+
+
+
+/*
+	Sobreescritura de estilos CSS de H5P
+	========================================================================== */
+
+	.h5p-question-introduction{
+		display: none;
+		margin: 0 0 20px 0;
+	}
+
+
+	/* Ordenar*/
+	.contenidor-interaccion{
+		width: 80%;
+		float: right;
+		padding: 5px;
+	}
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph {
+		border-width: 1px;
+	}
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph {
+		background-color: #f9f9f9;
+		border: solid 1px #d1d1d1;
+		box-shadow: none;
+		font-size: 12px;
+		line-height: 1.5;
+		padding: 0;
+		height: 75px;
+	}
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-separator {
+		height: .1em;
+		margin: .2em 0;
+	}
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph-button-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph .h5p-sort-paragraphs-buttons-container {
+		display: none !important;
+	}
+
+
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-button {
+		box-shadow: none;
+		min-height: 30px;
+		min-width: 30px;
+	}
+
+	.img-linea-tiempo{
+		height: 360px !important;
+    	float: right !important;
+	}
+
+	.h5p-question-content{
+		/*float: left;
+		width: 100%;
+		height: 600px;
+		background: url('../images/recurso_1.png') top left no-repeat;
+  		background-size: cover;
+		 Resize the background image to cover the entire container */
+	}
+	.h5p-sort-paragraphs-content{
+		/*width: 500px;
+		float: right;
+		background-color: #544;*/
+	}
+
+	.h5p-question-image{
+		width: 15%;
+		float: left;
+		margin-top: 35px;
+	}
+
+	.h5p-question-content{
+		width: 85%;
+		margin: 0;
+		float: left;
+	}
+
+	.h5p-question-image img {
+		width: 85px;
+	}
+
+	.h5p-sort-paragraphs-content {
+    	float: right;
+		padding: 5px;
+	}
+
+	.h5p-question-buttons.h5p-question-visible {
+		text-align: right;
+	}
+
+
+	/* Selected */
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph.h5p-sort-paragraphs-selected{
+		background:#ebefff;
+		border-color:#0c94e3;
+		box-shadow:none; 
+		color: #000;
+	}
+
+
+	/* Orden correcto */
+	.h5p-sort-paragraphs .h5p-sort-paragraphs-paragraph.h5p-sort-paragraphs-disabled:not(.animate-translation):not(.h5p-sort-paragraphs-wrong):not(.h5p-sort-paragraphs-correct) {
+		background-color: #f1f7f2;
+		border-color: #ccc;
+		color: #000000;
+	}
+
