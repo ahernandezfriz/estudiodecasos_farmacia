@@ -29,7 +29,7 @@
 	font-family: 'Montserrat', sans-serif !important;
 }
 button {
-	background-color: var(--color-primary) !important;
+	background-color: #0775b4 !important;
 	border-radius: .6rem !important;
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: 500;
@@ -37,6 +37,10 @@ button {
 button:hover,
 button:focus {
 	background-color: var(--color-accent) !important;
+}
+
+.h5peditor .ui-dialog .h5p-joubelui-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button{
+	background-color: #0775b4 !important;
 }
 
 

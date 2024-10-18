@@ -35,7 +35,7 @@
 				<nav>
 					<!-- <a href="#" class="brand"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/logo-facultad-de-farmacia-blanco.svg" alt="Logo Facultad de Farmacia"></a> -->
 					<ul class="left">
-						<li><a class="waves-effect waves-light btn-floating" href="<?php echo get_permalink( wp_get_post_parent_id() ); ?>"><i class="material-icons">home_filled</i></a></li>
+						<li><a class="waves-effect waves-light btn-floating" title="Ver todos los casos" href="<?php echo get_permalink( wp_get_post_parent_id() ); ?>"><i class="material-icons">home_filled</i></a></li>
 					</ul>
 					<ul class="right">
 						<!-- <li><a class="waves-effect waves-light btn-floating" href="<?php echo get_permalink( wp_get_post_parent_id() ); ?>"><i class="material-icons">home_filled</i></a></li> -->

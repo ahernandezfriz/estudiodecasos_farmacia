@@ -27,7 +27,7 @@ html, body {
 	height: 100vh;
 }
 body {
-	background: var(--color-primary) url('../images/bg/bg-body.jpg') center center no-repeat;
+	background: var(--color-primary);
 	background-size: cover;
 	color: #000000;
 	font-size: 15px;
